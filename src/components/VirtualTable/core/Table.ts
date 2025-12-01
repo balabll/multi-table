@@ -185,7 +185,7 @@ class VirtualTable {
 
     this.visibleCols = {
       start: startCol,
-      end: Math.min(endCol, this.columns.length),
+      end: Math.min(endCol + 1, this.columns.length),
     };
   }
 
