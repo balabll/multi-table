@@ -26,7 +26,7 @@ class VirtualTable {
   cols: number = 0;
   columns: Column[];
   stage: Stage;
-  layer: any;
+  layer: Konva.Layer;
   //cellsGroup: Group;
   dataSource: TableDataSource;
 
