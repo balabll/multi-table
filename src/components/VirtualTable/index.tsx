@@ -8,6 +8,7 @@ const Table = () => {
     return Array.from({ length: 20 }, (_, index) => ({
       title: `列 ${index + 1}`,
       width: 180,
+      lock: index === 0,
     }));
   };
 
